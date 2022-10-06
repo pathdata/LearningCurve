@@ -40,7 +40,7 @@ It is important to note the version of tensorflow and keras. Since the libraries
 ## Installation of Tensorflow package
 ```!pip install tensorflow==1.13.1 ```
 
-## Installation keras package
+## Installation of keras package
 ```!pip install keras==2.2.4 ```
 
 
