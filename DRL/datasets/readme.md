@@ -33,17 +33,17 @@ This section details the programming language (python) along with the primary li
 To build and train our deep representation learning networks we’ll primarily be using the Keras library. Keras supports TensorFlow packages.
 It is important to note the version of tensorflow and keras. Since the libraries are built in open source, we need to expect errors and Deprecated warnings appearing on the screen. The code currently working will be out of date after 6 months, depending on the updates happening with CUDA/CuDNN, tensorflow packages etc...
 
-cmd line
+### cmd line installations of the required packages
 
-## Install Tensorflow package
+## Installation of Tensorflow package
 ```!pip install tensorflow==1.13.1 ```
 
-## Install keras package
+## Installation keras package
 ```!pip install keras==2.2.4 ```
 
 
-## Additional libraries
-OpenCV, scikit-image, scikit-learn
+## Instatllation of additional libraries
+OpenCV, scikit-image, scikit-learn. Please use the commands, one at a time and seperate them into single lines before using it in the goolge colab.
 
 ```!pip install opencv-python ```
 ```!pip install scikit-image ```
