@@ -17,7 +17,7 @@ As the name suggests, CIFAR-10 consists of 10 classes, including: airplanes, aut
 
 ### Environment setup ###
 
-Tasks involved in setting up google-colab environment is composed of less number of steps compared to setting up of environment on local computer.
+Tasks involved in setting up google-colab environment is composed of less number of steps compared to setting up of the environment on local computer.
 
 Important command
 from google.colab import drive
