@@ -28,6 +28,18 @@ Being a deep learning practitioner its important to understand  the right set of
 
 This section details the programming language (python) along with the primary libraries that we will be using in Google Colab to study deep representation learning.
 
-Keras
+## Keras
 To build and train our deep representation learning networks we’ll primarily be using the Keras library. Keras supports TensorFlow packages.
 It is important to note the version of tensorflow and keras. Since the libraries are built in open source, we need to expect errors and Deprecated warnings appearing on the screen. The code currently working will be out of date after 6 months, depending on the updates happening with CUDA/CuDNN, tensorflow packages etc...
+
+cmd line
+!pip install keras==2.2.4
+!pip install tensorflow==1.13.1
+!pip install h5py==2.10.0
+
+## Additional libraries
+OpenCV, scikit-image, scikit-learn
+
+!pip install opencv-python
+!pip install scikit-image
+!pip install scikit-learn
