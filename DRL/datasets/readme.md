@@ -20,8 +20,8 @@ As the name suggests, CIFAR-10 consists of 10 classes, including: airplanes, aut
 Tasks involved in setting up google-colab environment is composed of less number of steps compared to setting up of the environment on local computer.
 
 ## Command to instantiate gdrive and to mount the local directories on your gdrive
-from google.colab import drive
-drive.mount('/content/gdrive', force_remount=True)
+` from google.colab import drive `
+` drive.mount('/content/gdrive', force_remount=True)`
 
 Being a deep learning practitioner its important to understand  the right set of tools and packages. We are going to use colab. But the same scripts can be configured on the local computer/laptop by creating environments for individual study. Google colab is easier as it is flexible to use without any restrictions that will be imposed by the hardware associated with the computer/laptop.
 
