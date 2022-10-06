@@ -19,7 +19,7 @@ As the name suggests, CIFAR-10 consists of 10 classes, including: airplanes, aut
 
 Tasks involved in setting up google-colab environment is composed of less number of steps compared to setting up of the environment on local computer.
 
-Important command
+## Command to instantiate gdrive and to mount the local directories on your gdrive
 from google.colab import drive
 drive.mount('/content/gdrive', force_remount=True)
 
