@@ -42,7 +42,7 @@ It is important to note the version of tensorflow and keras. Since the libraries
 ```!pip install keras==2.2.4 ```
 
 
-## Instatllation of additional libraries
+## Installation of additional libraries
 OpenCV, scikit-image, scikit-learn. Please use the commands, one at a time and seperate them into single lines before using it in the goolge colab.
 
 ```!pip install opencv-python ```
