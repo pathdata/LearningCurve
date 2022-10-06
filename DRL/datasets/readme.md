@@ -1,7 +1,7 @@
 
 Datasets is an important component for understanding the deep representations.
 
-## MNIST - Hand written digit dataset, a hello world to the Deep learning.
+## MNIST - Hand written digit dataset, a hello world to the Deep learning experiments.
 
 where (“NIST” stands for National Institute of Standards and Technology while the “M”
 stands for “modified” as the data has been preprocessed to reduce any burden on computer vision
