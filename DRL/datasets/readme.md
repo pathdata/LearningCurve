@@ -1,5 +1,5 @@
 
-Datasets is an important component for understanding the deep representations.
+Datasets is an important component for understanding the deep representations through the abalation experiments undertaken in the lab session.
 
 ## MNIST - Hand written digit dataset, a hello world to the Deep learning experiments.
 
