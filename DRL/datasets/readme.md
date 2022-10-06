@@ -22,10 +22,11 @@ Tasks involved in setting up google-colab environment is composed of less number
 ## Command to instantiate gdrive and to mount the local directories on your gdrive
 ```python
 from google.colab import drive 
-drive.mount('/content/gdrive', force_remount=True)```
- 
-Being a deep learning practitioner its important to understand  the right set of tools and packages. We are going to use colab. But the same scripts can be configured on the local computer/laptop by creating environments for individual study. Google colab is easier as it is flexible to use without any restrictions that will be imposed by the hardware associated with the computer/laptop.
+drive.mount('/content/gdrive', force_remount=True)
+```
 
+### Libraries and Packages ###
+Being a deep learning practitioner its important to understand  the right set of tools and packages. We are going to use colab. But the same scripts can be configured on the local computer/laptop by creating environments for individual study. Google colab is easier as it is flexible to use without any restrictions that will be imposed by the hardware associated with the computer/laptop.
 
 
 This section details the programming language (python) along with the primary libraries that we will be using in Google Colab to study deep representation learning.
