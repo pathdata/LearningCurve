@@ -16,8 +16,18 @@ As the name suggests, CIFAR-10 consists of 10 classes, including: airplanes, aut
 
 ### Environment setup ###
 
+Tasks involved in setting up google-colab environment is composed of less number of steps compared to setting up of environment on local computer.
+
+Important command
+from google.colab import drive
+drive.mount('/content/gdrive', force_remount=True)
+
 Being a deep learning practitioner its important to understand  the right set of tools and packages. We are going to use colab. But the same scripts can be configured on the local computer/laptop by creating environments for individual study. Google colab is easier as it is flexible to use without any restrictions that will be imposed by the hardware associated with the computer/laptop.
 
 
 
-This section details the programming language along with the primary libraries that we will be using in Google Colab to study deep representation learning.
+This section details the programming language (python) along with the primary libraries that we will be using in Google Colab to study deep representation learning.
+
+Keras
+To build and train our deep representation learning networks we’ll primarily be using the Keras library. Keras supports TensorFlow packages.
+It is important to note the version of tensorflow and keras. Since the libraries are built in open source, we need to expect errors and Deprecated warnings appearing on the screen. The code currently working will be out of date after 6 months, depending on the updates happening with CUDA/CuDNN, tensorflow packages etc...
