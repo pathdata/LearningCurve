@@ -13,3 +13,11 @@ CIFAR10 (standard benchmark dataset)- RGB images of dimension 32x32x3
 
 where ("CIFAR" stands for Canadian Institute for Advanced Research) consists of 60,000 32×32×3 (RGB) images resulting in a feature vector dimensionality of 3072.
 As the name suggests, CIFAR-10 consists of 10 classes, including: airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks.
+
+### Environment setup ###
+
+Being a deep learning practitioner its important to understand  the right set of tools and packages. We are going to use colab. But the same scripts can be configured on the local computer/laptop by creating environments for individual study. Google colab is easier as it is flexible to use without any restrictions that will be imposed by the hardware associated with the computer/laptop.
+
+
+
+This section details the programming language along with the primary libraries that we will be using in Google Colab to study deep representation learning.
