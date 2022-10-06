@@ -34,10 +34,12 @@ It is important to note the version of tensorflow and keras. Since the libraries
 
 cmd line
 
+## Install Tensorflow package
+```!pip install tensorflow==1.13.1 ```
 
-```!pip install keras==2.2.4 ```\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-```!pip install tensorflow==1.13.1 ```\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-```!pip install h5py==2.10.0 ```
+## Install keras package
+```!pip install keras==2.2.4 ```
+
 
 ## Additional libraries
 OpenCV, scikit-image, scikit-learn
