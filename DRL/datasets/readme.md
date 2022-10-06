@@ -33,16 +33,18 @@ To build and train our deep representation learning networks we’ll primarily b
 It is important to note the version of tensorflow and keras. Since the libraries are built in open source, we need to expect errors and Deprecated warnings appearing on the screen. The code currently working will be out of date after 6 months, depending on the updates happening with CUDA/CuDNN, tensorflow packages etc...
 
 cmd line
-!pip install keras==2.2.4
-!pip install tensorflow==1.13.1
-!pip install h5py==2.10.0
+
+
+```!pip install keras==2.2.4 ```
+```!pip install tensorflow==1.13.1 ```
+```!pip install h5py==2.10.0 ```
 
 ## Additional libraries
 OpenCV, scikit-image, scikit-learn
 
-!pip install opencv-python
-!pip install scikit-image
-!pip install scikit-learn
+```!pip install opencv-python ```
+```!pip install scikit-image ```
+```!pip install scikit-learn ```
 
 ## Summary
 
