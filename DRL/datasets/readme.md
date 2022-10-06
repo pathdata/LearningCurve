@@ -1,5 +1,6 @@
+## Datasets and Data preparation
 
-Datasets is an important component for understanding the deep representations through the abalation experiments undertaken in the lab session.
+Datasets and data preparation is an important component for understanding the deep representations, building computational models and then performing evaluation   through the abalation experiments undertaken in the hands on lab sessions.
 
 ## MNIST - Hand written digit dataset, a hello world to the Deep learning experiments.
 
