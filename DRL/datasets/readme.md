@@ -43,3 +43,8 @@ OpenCV, scikit-image, scikit-learn
 !pip install opencv-python
 !pip install scikit-image
 !pip install scikit-learn
+
+## Summary
+
+When it comes to configuring your deep learning development environment, you have a number of options. For the lab, we use google co-lab. If you would prefer to work from your local machine, that’s totally reasonable, but you will need to compile and install some dependencies first. If you are planning on using your
+CUDA-compatible GPU on your local machine, a few extra install steps will be required as well. Download the appropriate version of CUDA compatible with the GPU of the local machine and further use compatible CuDNN package that goes hand in hand with the CUDA version.
