@@ -7,7 +7,7 @@ Datasets and data preparation is an important component for understanding the de
 where (“NIST” stands for National Institute of Standards and Technology while the “M”
 stands for “modified” as the data has been preprocessed to reduce any burden on computer vision
 processing and focus solely on the task of digit recognition) dataset is one of the most well studied
-datasets in the computer vision and machine learning literature. The goal of this dataset is to correctly classify the handwritten digits 0 − 9.
+datasets in the computer vision and machine learning literature. The goal of this dataset is to correctly classify the handwritten digits 0 − 9. Digits images are preprocessed and saved as grayscale images of dimension 28x28 resulting in a feature vector dimensionality of 784.
 In many cases, this dataset is a benchmark, a standard to which machine learning algorithms are ranked.
 
 ## CIFAR10 (standard benchmark dataset)- RGB images of dimension 32x32x3
