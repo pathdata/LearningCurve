@@ -31,7 +31,7 @@ def train_model():
 # Streamlit User Interface for Deployed Model
 def main():
     st.title('🏠 Simple House Pricing Predictor')
-    st.write('Introduce the house size to predict its sale price \U0001F52F \U0001F52F \U0001F52F \U0001F52F \U0001F52F')
+    st.write('Introduce the house size to predict its sale price 🔯 🔯 🔯 🔯 🔯 \U0001F52F \U0001F52F')
     
     # Train model
     model = train_model()
