@@ -47,7 +47,7 @@ def main():
         prediction = model.predict([[size]])
         
         # Show result
-        st.success(f'Estimated price: ${prediction[0]:,.2f}')
+        st.success(f'Estimated price: £{prediction[0]:,.2f}')
         
         # Visualization
         df = generate_house_data()
