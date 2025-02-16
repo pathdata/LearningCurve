@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import plotly.express as px
 
-logo_path=r"house_image.jpeg"
+logo_path=r"LearningCurve/DRL/streamlit_demo/house_image.jpeg"
 logo_image=open(logo_path,"rb").read()
 
 st.sidebar.image(logo_image,use_container_width=True)
