@@ -5,9 +5,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import plotly.express as px
+from skimage import io
 
 logo_path=r"LearningCurve/DRL/streamlit_demo/house_image.jpeg"
-logo_image=open(logo_path,"rb").read()
+logo_image=io.imread(logo_path)
 
 st.sidebar.image(logo_image,use_container_width=True)
 st.sidebar.markdown(f"# Join our [Opensource Implementation and Learning](https://github.com/pathdata/LearningCurve)")
