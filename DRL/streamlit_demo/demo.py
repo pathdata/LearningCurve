@@ -7,11 +7,11 @@ from sklearn.metrics import mean_squared_error, r2_score
 import plotly.express as px
 from skimage import io
 
-logo_path=r"LearningCurve/DRL/streamlit_demo/house_image.jpeg"
-logo_image=io.imread(logo_path)
+# logo_path=r"LearningCurve/DRL/streamlit_demo/house_image.jpeg"
+# logo_image=io.imread(logo_path)
 
-st.sidebar.image(logo_image,use_container_width=True)
-st.sidebar.markdown(f"# Join our [Opensource Implementation and Learning](https://github.com/pathdata/LearningCurve)")
+# st.sidebar.image(logo_image,use_container_width=True)
+# st.sidebar.markdown(f"# Join our [Opensource Implementation and Learning](https://github.com/pathdata/LearningCurve)")
  
 # Synthetic generation of data examples for training the model
 def generate_house_data(n_samples=100):
