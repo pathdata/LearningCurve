@@ -1,5 +1,5 @@
-#Python Machine Learning Concepts
- A Tour of ML Classifiers Using Scikit-learn
+# Python Machine Learning Concepts
+## A Tour of ML Classifiers Using Scikit-learn
 
 **Dr. Priya Lakshmi Narayanan**  
 *Python Machine Learning – Tutorial Series*
