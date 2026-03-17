@@ -209,7 +209,7 @@ pip install scikit-learn numpy matplotlib
 ### `ch03_breast_cancer_v2.py`
 
 ```bash
-pip install scikit-learn imbalanced-learn numpy matplotlib joblib
+pip install scikit-learn imblearn numpy matplotlib joblib
 ```
 
 Python 3.9+ and scikit-learn ≥ 1.3 recommended.
