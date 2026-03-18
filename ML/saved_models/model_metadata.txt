@@ -1,0 +1,31 @@
+Best Model — Breast Cancer Classifier
+======================================
+Model        : SVM (tuned)
+Pipeline     : StandardScaler -> SMOTE -> SVM (tuned)
+
+Saved files:
+  saved_models\best_model.joblib   (joblib - recommended)
+  saved_models\best_model.pkl      (pickle - portable)
+
+Test-set performance (n=171):
+  Accuracy      : 0.9825
+  F1 (malignant): 0.9764
+  ROC-AUC       : 0.9947
+  PR-AUC        : 0.9927
+  Recall-0      : 0.9688
+
+How to reload (joblib):
+  import joblib
+  model = joblib.load('saved_models/best_model.joblib')
+  y_pred = model.predict(X_new)
+  y_prob = model.predict_proba(X_new)[:, 0]  # P(malignant)
+
+How to reload (pickle):
+  import pickle
+  with open('saved_models/best_model.pkl', 'rb') as f:
+      model = pickle.load(f)
+  y_pred = model.predict(X_new)
+  y_prob = model.predict_proba(X_new)[:, 0]  # P(malignant)
+
+Note: X_new must have the same 30 features in the same order as the
+      original Breast Cancer Wisconsin dataset.
