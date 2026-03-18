@@ -374,15 +374,15 @@ print("=" * 65)
 print("SECTION 7: Saving & Loading the Trained Model")
 print("=" * 65)
 
-os.makedirs("ch08_saved_model", exist_ok=True)
+os.makedirs("model", exist_ok=True)
 
 # Save the pipeline
-with open("ch08_saved_model/sentiment_pipeline.pkl", "wb") as f:
+with open("model/sentiment_pipeline.pkl", "wb") as f:
     pickle.dump(pipe_lr, f)
-print("  → Saved: ch08_saved_model/sentiment_pipeline.pkl")
+print("  → Saved: model/sentiment_pipeline.pkl")
 
 # Load and verify
-with open("ch08_saved_model/sentiment_pipeline.pkl", "rb") as f:
+with open("model/sentiment_pipeline.pkl", "rb") as f:
     pipe_loaded = pickle.load(f)
 
 pred_loaded = pipe_loaded.predict([clean_text(test_reviews[0])])
@@ -428,4 +428,4 @@ print("""
 """)
 
 if __name__ == "__main__":
-    print("\n✓ sentimente analysis complete.")
+    print("\n✓ sentiment analysis complete.")
