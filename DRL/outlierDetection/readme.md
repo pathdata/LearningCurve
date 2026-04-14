@@ -14,10 +14,10 @@ Based on literatures reported
 
 Sidebar slider — drag the Z-score threshold from 0.5 (very sensitive) to 3.5 (very strict). 
 
-Every chart and table updates instantly in real time.
-###Tab 1 – Scatter Plot — interactive Plotly chart. Hover over any dot to see the trust name,
-% change, and whether it was flagged. The red dashed threshold line moves with the slider.
-###Tab 2 – Model Performance — live confusion matrix, precision/recall/F1 bars, 
-and a precision–recall curve with a ⭐ star marking your current threshold position.
-###Tab 3 – Trust List — three side-by-side tables showing exactly which named trusts are true positives,
+Every chart and table updates instantly in real time.                      
+###Tab 1 – Scatter Plot — interactive Plotly chart. Hover over any dot to see the trust name,                      
+% change, and whether it was flagged. The red dashed threshold line moves with the slider.                        
+###Tab 2 – Model Performance — live confusion matrix, precision/recall/F1 bars,                            
+and a precision–recall curve with a ⭐ star marking your current threshold position.                        
+###Tab 3 – Trust List — three side-by-side tables showing exactly which named trusts are true positives,                     
 false positives, and missed at the current threshold. Includes a CSV download button.
