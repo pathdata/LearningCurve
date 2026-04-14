@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-from plotly.subplots import make_subplots
 
 st.set_page_config(
     page_title="WannaCry NHS Outlier Detection",
