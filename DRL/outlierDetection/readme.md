@@ -1,9 +1,9 @@
 Wannacry case study
 
-Dates of attack : 12–13 May 2017
-Organisations affected: 80+ NHS trusts, 595 GP practices
-Estimated cost to NHS: £92 million
-Appointments cancelled: ~19,000
+Dates of attack : 12–13 May 2017                                                  
+Organisations affected: 80+ NHS trusts, 595 GP practices                              
+Estimated cost to NHS: £92 million                                                 
+Appointments cancelled: ~19,000                                           
 
 This notebook reconstructs the WannaCry attack using publicly available information from the NAO (2018), NHS Digital, 
 and the NCSC post-incident review. The goal is not just to understand what happened, but to draw lessons for healthcare cybersecurity policy.
