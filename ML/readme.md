@@ -2,7 +2,7 @@
 ## A Tour of ML Classifiers Using Scikit-learn
 
 **Dr. Priya Lakshmi Narayanan**  
-*Python Machine Learning – Tutorial Series*
+*Building Machine Learning Systems with Python – Tutorial Series*
 
 ---
 
