@@ -1,4 +1,16 @@
 """
+JUMP Cell Painting Consortium dataset (Chandrasekaran et al., Nature Methods 2025) — a large-scale perturbational imaging resource 
+covering ~75% of the protein-coding genome in human U-2 OS cells, including CRISPR-Cas9 knockout of 7,975 genes and ORF overexpression of 12,609 genes.
+
+Here the code is about processing one batch out of 13 batches from the published dataset. 
+Understanding of source, well, plate, treated, untreated, DMSO wells are mandatory.
+
+The analytic workflow contains Data ingestion, memory efficient loading of parquet files,
+                               QC per-plate (NaN rates, cell counts, feature variance),
+                               multi-stage feature selection (NaN, near-zero variance, and high-correlation filters reducing ~7,648
+                               raw features to a curated final set of ~1015), batch effect characterisation via PCA, 
+                               well-to-perturbation-level median aggregation, Pearson correlation-based perturbation similarity analysis,
+                               automated export of normalised parquets, aggregated profiles, QC tables, and a PDF diagnostic report
 JUMP-CP Batch QC Script  —  v2  (aligned with jump_cp_pipeline_PN_v4.py)
 =========================================================================
 Fixes applied from v4 pipeline
